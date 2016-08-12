@@ -9,10 +9,13 @@ npm install
 npm start
 ```
 
-Then visit <http://localhost:3000> and you will see `Hello world!` on the page.
+Then visit:
 
-If you view the source of the page, you will just see some static html like:
+- <http://localhost:3000/>, you will see html code:
 
-```
-<!DOCTYPE html><div>Hello World!</div>
-```
+    ```
+    <!DOCTYPE html><div>Hello World!</div>
+    ```
+
+- <http://localhost:3000/data>
+

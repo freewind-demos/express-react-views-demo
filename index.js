@@ -10,6 +10,10 @@ app.get('/', function(req, res) {
   res.render('hello.jsx');
 });
 
+app.get('/data', function(req, res) {
+  res.render('data.jsx', {names: ['Jeff', 'Mike', 'Lily']});
+});
+
 app.listen(3000, function() {
   console.log('Listening on 3000');
 });
